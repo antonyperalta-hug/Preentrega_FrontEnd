@@ -23,8 +23,6 @@ header {
     flex-wrap: wrap;
 }
 
-
-
 /*Productos*/
 
 .prod-titulo{
@@ -89,6 +87,18 @@ margin-left: 2%;
     font-family: Cabin, Verdana, Tahoma, sans-serif;
 }
 
+.map-style{
+    background-color: #c6ceef;
+    color: #1b264f;
+    border: 2px black solid;
+    border-radius: 20px;
+    font-family: Cabin, Verdana, Tahoma, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.map-titulo{
+    
+}
 footer{
     background-color: #1b264f;
     color: #f5f3f5;
@@ -96,7 +106,6 @@ footer{
     text-align: center;
     border: 2px solid black;
     font-family: Cabin, Verdana, Tahoma, sans-serif;
-
 }
 
 /*Medias Queries*/
