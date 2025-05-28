@@ -10,7 +10,7 @@ body{
     font-family: Cabin, Verdana, Tahoma, sans-serif; 
 }
 header {
-    background-color: #1b264f;
+    background-color: #9ca6ca;
     color: #f5f3f5;
     display: flex;
     align-items: center;
@@ -80,7 +80,7 @@ margin-left: 2%;
 }
 
 .form-section {
-    background-color: #576ca8;
+    background-color: #9ca6ca;
     color: #1b264f;
     text-align: center;
     border: 2px black solid;
@@ -109,6 +109,6 @@ footer{
 @media only screen and (max-width:600px) {
     .form-section {
         background-color: #1b264f;
-        color: #576ca8;
+        color: #9ca6ca;
     }
 }
