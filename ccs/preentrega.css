@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cabin, Verdana, Tahoma, sans-serif; 
+}
+header {
+    background-color: #1b264f;
+    color: #f5f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-links{
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+
+
+/*Productos*/
+
+.prod-titulo{
+    text-align: center;
+    margin: 5% 0;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.item{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px
+    ;
+}
+
+/*Card*/
+.precio {
+font-size: x-large;
+text-align: left;
+margin-left: 2%;
+}
+
+.oferta{
+    font-size: medium;
+    color: green;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.descripcion{
+    font-size: small;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.btn-item{
+    background-color: #1b264f;
+    color: #f5f3f5;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.btn-item:hover{
+    color: #1b264f;
+    background-color: #f5f3f5;
+    cursor: pointer;
+    
+}
+
+.form-section {
+    background-color: #576ca8;
+    color: #1b264f;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding-bottom: 15%;
+    font-family: Cabin, Verdana, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: #1b264f;
+    color: #f5f3f5;
+    padding: 5%;
+    text-align: center;
+    border: 2px solid black;
+    font-family: Cabin, Verdana, Tahoma, sans-serif;
+
+}
+
+/*Medias Queries*/
+
+@media only screen and (max-width:400px) {
+    header {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:600px) {
+    .form-section {
+        background-color: #1b264f;
+        color: #576ca8;
+    }
+}
